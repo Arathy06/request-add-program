@@ -8,6 +8,11 @@ var app=express();
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 
+app.get("/",(req,res)=>{
+
+    res.send("Welcome")
+})
+
 
 app.post('/add',(res,req)=>{
 
