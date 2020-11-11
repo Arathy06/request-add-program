@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 })
 
 
-app.post('/add',(res,req)=>{
+app.post("/add",(res,req)=>{
 
     var getnum1=parseInt(req.body.num1)
     var getnum2=parseInt(req.body.num2)
